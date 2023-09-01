@@ -1,0 +1,367 @@
+ .homecontainer {
+     padding: 20px 30px 0px 30px;
+     background-image: linear-gradient(306deg, #ffc0cb33, rgb(0 0 0 / 10%), #ffc0cb42);
+
+ }
+
+ .homecontainer ul,
+ .li_Container {
+     display: flex;
+ }
+
+ .homecontainer ul {
+     justify-content: space-between;
+ }
+
+ .homecontainer ul button {
+     color: white;
+     background: black;
+     padding: 9px 12px;
+     height: 39px;
+     font-weight: bold;
+     font-size: .9em;
+ }
+
+ .homecontainer ul li {
+     list-style-type: none;
+     margin-right: 25px;
+     font-size: 1.1em;
+ }
+
+ .homecontainer ul li:last-child {
+     margin-right: 0%;
+ }
+
+ .home_second {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+ }
+
+ .home_left {
+     position: relative;
+ }
+
+ .home_left>img {
+     height: 60vh;
+ }
+
+ .home_left .Image_intro {
+     background-color: white;
+     position: absolute;
+     bottom: 10%;
+     right: 0%;
+     display: flex;
+     width: 100%;
+     justify-content: center;
+     align-items: center;
+     padding: 10px;
+
+ }
+
+ .home_right {
+     margin-right: 50px;
+ }
+
+ .home_right .heading_p {
+     font-size: 2.2em;
+ }
+
+ .home_right .heading_p>span {
+     font-weight: bold;
+     color: blue;
+
+
+ }
+
+ .home_right>button {
+     text-align: center;
+     margin: 10px auto 4px auto;
+     display: block;
+
+     padding: 7px 39px;
+     background: black;
+     color: white;
+     font-size: 1em;
+     font-weight: bold;
+ }
+
+ .home_right>small {
+     font-size: 14px;
+ }
+
+ .university {
+     background-color: blue;
+     color: white;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     padding: 9px;
+ }
+
+ .university p {
+     font-size: 2.2em;
+     font-weight: bold;
+ }
+
+ .university small {
+     font-size: 12px;
+ }
+
+ .intro {
+     margin-right: 10px;
+ }
+
+ .intro .summery {
+     margin-top: 10px;
+     margin-bottom: 10px;
+     font-size: 13px;
+ }
+
+ .intro .bold {
+     font-size: 1.4em;
+     font-weight: bold;
+ }
+
+ .gmta {
+     color: blue;
+ }
+
+ .logo_line>li:first-child {
+     color: red;
+     margin: 0;
+     font-weight: bold;
+     font-size: 1.5em;
+ }
+
+ .logo_line>li:nth-child(2) {
+
+     margin-top: 4px;
+     font-size: bold;
+     padding: 3px 0px 5px 0px;
+     color: white;
+     background-color: blue;
+     border-radius: 14px;
+     text-align: center;
+     font-size: .9em;
+ }
+
+
+
+ @media screen and (min-width: 0px) and (max-width:930px) {
+
+
+     .homecontainer ul {
+         display: block;
+     }
+
+     .logo_line>li:nth-child(2) {
+         display: inline-block;
+         padding: 3px 20px 5px 20px;
+     }
+
+     .homecontainer ul,
+     .li_Container {
+         margin-top: 10px;
+         margin-bottom: 10px;
+     }
+
+     .uppersection .box {
+         padding: 15px;
+     }
+
+     .home_secon {
+         flex-direction: column;
+         justify-content: center;
+     }
+
+     .home_right {
+         margin: 20px auto;
+     }
+
+     .home_second {
+         flex-direction: column;
+         align-items: center;
+         justify-self: center;
+     }
+
+
+     .secondchild .left {
+         width: 40% !important;
+         margin-right: 25px !important;
+     }
+
+
+     .fourth_child .left,
+     .fourth_child .right {
+         width: 40% !important;
+     }
+
+
+     .thirdSession {
+         width: 90% !important;
+
+     }
+
+
+     .plus {
+         margin-left: 20px;
+     }
+ }
+
+
+
+
+
+
+ @media screen and (min-width: 0px) and (max-width:600px) {
+
+
+
+     .homecontainer {
+         padding: 20px 12px 0px 12px;
+     }
+
+     .li_Container {
+         flex-wrap: wrap;
+     }
+
+     .li_Container>li {
+         margin: 10px;
+     }
+
+
+
+     .uppersection {
+         flex-direction: column;
+
+     }
+
+     .uppersection .box {
+         padding: 13px 10px
+     }
+
+     .secondchild .left {
+         width: 90% !important;
+         margin: auto auto 30px auto !important;
+
+
+     }
+
+     .secondchild {
+         flex-direction: column;
+     }
+
+     .thirdchild {
+         padding: 13px 20px;
+         margin: 25px 15px 20px 15px;
+     }
+
+     .fourth_child {
+         flex-direction: column;
+         justify-self: center;
+         align-items: center;
+
+     }
+
+     .fourth_child .left,
+     .fourth_child .right {
+         width: 80% !important;
+         margin: auto !important;
+     }
+
+     .fourth_child .left {
+         margin-bottom: 20px !important;
+     }
+
+     .fivth_child {
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+
+     .fivth_child .left {
+         padding-bottom: 0px !important;
+     }
+
+     .imageContainer .image_box {
+         padding: 10px !important;
+         min-width: 287px !important;
+         max-width: 287px !important;
+     }
+
+     .home_left .Image_intro {
+         right: -3% !important
+     }
+
+     .Inspiring_StoriesContainer {
+         margin: 0 15px !important;
+     }
+
+     .home_right .heading_p {
+         margin: auto 10px !important;
+     }
+
+     .secondMain {
+         padding: 10px !important;
+     }
+ }
+
+
+
+
+ @media screen and (min-width: 0px) and (max-width:340px) {
+     .home_left .Image_intro {
+         position: relative !important;
+         right: auto !important;
+         width: auto;
+         flex-direction: column;
+
+     }
+
+     .intro {
+         margin: auto !important;
+     }
+
+     .home_left>img {
+         width: 100%;
+         height: auto !important;
+     }
+
+     .homecontainer {
+         padding-bottom: 20px !important;
+
+     }
+
+     .secondchild .right {
+         padding: 12px 0px !important;
+         margin: 0px 10px;
+     }
+
+     .secondchild .right img {
+         width: 100%;
+         height: auto !important;
+     }
+
+     .imageContainer {
+         flex-direction: column;
+         overflow: visible !important;
+     }
+
+     .thirdchild {
+         padding: 20px 11px !important;
+         margin: 25px 0px 20px 0px !important;
+     }
+
+     .imageContainer .image_box {
+         /* padding: 10px !important; */
+         min-width: auto !important;
+         margin: 0 !important;
+
+         max-width: auto !important;
+
+     }
+ }

@@ -1,0 +1,207 @@
+.secondMain {
+    background-color: white;
+}
+
+
+.secondMain .firstp {
+    margin-top: 15px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+
+
+}
+
+.uppersection {
+    display: flex;
+    justify-content: center;
+}
+
+.uppersection .box {
+    padding: 25px;
+    border-right: 1px solid rgba(0, 0, 0, 0.466);
+    text-align: center;
+}
+
+.uppersection .box:last-child {
+    border: none;
+}
+
+.uppersection .box>p {
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+.uppersection .box>small {
+    font-size: 10px;
+
+}
+
+.secondchild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.secondchild .left {
+    width: 30%;
+    margin-right: 50px;
+}
+
+.secondchild .left h2 {
+    font-size: 1.4em;
+    margin-bottom: 9px;
+}
+
+.secondchild .left p {
+    font-size: .9em;
+}
+
+.secondchild .right {
+    background: #c3d8f8;
+    padding: 12px 20px;
+}
+
+.secondchild .right img {
+    height: 45vh;
+}
+
+.secondchild .right button {
+    margin-top: 10px;
+}
+
+.secondchild .left button p {
+    font-weight: bold;
+}
+
+.secondchild .left button {
+    margin-top: 16px;
+    padding: 4px 9px;
+    border: none;
+
+}
+
+.secondchild .left .firstbutton {
+    margin-right: 20px;
+    background-image: linear-gradient(54deg, black, blue, red);
+    color: white;
+}
+
+.secondchild .left .secondbutton {
+    color: white;
+    background-image: linear-gradient(7deg, black, red);
+    padding: 4px 9px;
+}
+
+.thirdchild {
+    background: #001637;
+    color: white;
+    padding: 20px 35px;
+    margin: 25px 30px 20px 30px;
+}
+
+.fourth_child {
+
+    display: flex;
+    justify-content: center;
+}
+
+.fourth_child .left,
+.fourth_child .right {
+    width: 30%;
+    margin-right: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.705);
+    padding: 4px;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+
+.fourth_child .left h2,
+.fourth_child .right h2 {
+    margin-bottom: 30px;
+    font-size: 1.5em;
+}
+
+.fourth_child .left p,
+.fourth_child .right p {
+    margin-bottom: 10px;
+    font-size: 1em;
+
+}
+
+.circle_btn {
+    font-size: .8em;
+    padding: 4px 10px;
+    border-radius: 20px;
+    background: white;
+    border: 1px solid black;
+}
+
+.fourth_child .small_btn {
+    border: none;
+    font-size: .7em;
+    background-image: linear-gradient(45deg, black, #0616ec);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 6px;
+}
+
+.fourth_child .small_btn_second {
+    background-image: linear-gradient(45deg, black, red);
+}
+
+.fivth_child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: black;
+    margin-top: 20px;
+}
+
+.fivth_child .left {
+
+    padding: 20px;
+}
+
+.fivth_child .right {
+
+    padding: 20px;
+}
+
+.fivth_child .left h1 {
+    font-size: 4em;
+}
+
+.fivth_child .right h2 {
+    font-size: 1.4em;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+
+
+
+.fivth_child .circle_btn {
+    background-color: rgba(255, 255, 255, 0.016);
+    color: white;
+    border: 1px solid white;
+    margin-top: 8px;
+}
+
+.newbtn {
+    background: blue;
+    padding: 7px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    top: 7px;
+}
+
+.G {
+    border-bottom: 6px solid yellow;
+}
