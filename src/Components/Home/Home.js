@@ -40,17 +40,7 @@ export default function Home() {
                 <div className='home_left'>
 
                     <img src={HomeMenImage} alt="men image " />
-                    <div className='Image_intro'>
-                        <div className='intro'>
-                            <p className='bold'> Harshit Jain</p>
-                            <p className='summery'>Whaton. Deferred MBA</p>
-                            <p className='bold gmta'>GMAT 780</p>
-                        </div>
-                        <div className='university'>
-                            <p>Wharton</p>
-                            <small>UNIVERSITY OF PENNSYLVANIA</small>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
 
