@@ -3,7 +3,7 @@ import HomeMenImage from '../../Images/menhome.png'
 import './Home.css'
 export default function Home() {
     return (
-        // <div className='home_main'>
+
 
 
         <div className='homecontainer'>
@@ -30,7 +30,7 @@ export default function Home() {
                 <button>Get Demo</button>
 
             </ul>
-          
+
             <div className='home_second'>
                 <div className='home_right'>
                     <p className='heading_p'> Beacome the top 1% scorer in <span>GMAT</span></p>
@@ -40,11 +40,10 @@ export default function Home() {
                 <div className='home_left'>
 
                     <img src={HomeMenImage} alt="men image " />
-                    
+
                 </div>
             </div>
 
         </div>
-        // </div>
     )
 }

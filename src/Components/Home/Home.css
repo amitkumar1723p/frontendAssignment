@@ -47,7 +47,7 @@
      height: 60vh;
  }
 
- .home_left .Image_intro {
+ /* .home_left .Image_intro {
      background-color: white;
      position: absolute;
      bottom: 10%;
@@ -58,7 +58,7 @@
      align-items: center;
      padding: 10px;
 
- }
+ } */
 
  .home_right {
      margin-right: 50px;
@@ -115,16 +115,16 @@
      margin-right: 10px;
  }
 
- .intro .summery {
+ /* .intro .summery {
      margin-top: 10px;
      margin-bottom: 10px;
      font-size: 13px;
- }
+ } */
 
- .intro .bold {
+ /* .intro .bold {
      font-size: 1.4em;
      font-weight: bold;
- }
+ } */
 
  .gmta {
      color: blue;
@@ -289,15 +289,20 @@
          padding-bottom: 0px !important;
      }
 
+     .home_left>img {
+         height: auto !important;
+         width: 70vw !important;
+     }
+
      /* .imageContainer .image_box {
          padding: 10px !important;
          min-width: 287px !important;
          max-width: 287px !important;
      } */
 
-     .home_left .Image_intro {
+     /* .home_left .Image_intro {
          right: -3% !important
-     }
+     } */
 
      .Inspiring_StoriesContainer {
          margin: 0 15px !important;
@@ -316,20 +321,20 @@
 
 
  @media screen and (min-width: 0px) and (max-width:340px) {
-     .home_left .Image_intro {
+     /* .home_left .Image_intro {
          position: relative !important;
          right: auto !important;
          width: auto;
          flex-direction: column;
 
-     }
+     } */
 
-     .intro {
+     /* .intro {
          margin: auto !important;
-     }
+     } */
 
      .home_left>img {
-         width: 100%;
+         width: 100% !important;
          height: auto !important;
      }
 
@@ -360,7 +365,7 @@
 
      .imageContainer .image_box {
 
-         margin: 0 0 15px 0  !important;
+         margin: 0 0 15px 0 !important;
 
 
 
