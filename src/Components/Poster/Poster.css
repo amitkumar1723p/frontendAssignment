@@ -1,0 +1,237 @@
+.poster {
+    position: relative
+}
+
+.posterContainer {
+    margin: 25px;
+
+}
+
+.poster img {
+    width: 100%;
+}
+
+
+.poster .contentContainer {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 99.4%;
+    width: 39%;
+    color: white;
+    left: 10%;
+    background: #b5080854;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+
+.contentContainer .content button {
+    font-size: .88em;
+    padding: 3px 10px;
+    border-radius: 9px;
+    background-image: linear-gradient(275deg, red, black);
+    color: white;
+    margin-bottom: 15px;
+}
+
+.contentContainer .content h3 {
+    font-size: 1.81em;
+    margin-bottom: 18px;
+}
+
+.contentContainer .content p {
+    font-size: 1em;
+}
+
+.seminarDetail_Container h2 {
+    margin-top: 13px;
+    margin-bottom: 27px;
+    font-size: 2.4em;
+    font-weight: 500;
+}
+
+.seminarDetail_Container {
+    background: #fafafa;
+    padding: 10px;
+}
+
+.seminarDetail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seminarDetail .left {
+    max-width: 60%;
+    margin-right: 30px;
+
+}
+
+
+.seminarDetail .left>img {
+    width: 100%;
+
+}
+
+.seminarDetail .left .button_box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.seminarDetail .left>p {
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.seminarDetail .left .liveButton {
+    border-radius: 3px;
+    color: white;
+    padding: 3px 7px;
+    background: #767b79;
+    font-size: 1em;
+    font-family: monospace;
+    border: none;
+    font-weight: 600;
+    margin-right: 8px;
+
+}
+
+.seminarDetail .left .liveButton span {
+    display: inline-block;
+    background: white;
+    border-radius: 100%;
+    width: 8px;
+    height: 8px;
+    margin-right: 9px;
+}
+
+.seminarDetail .left .sesstion_Time {
+    font-size: .84em;
+    font-weight: 600;
+    color: #767b79;
+}
+
+.hostContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.hostContainer>button {
+    font-size: 1em;
+    padding: 10px;
+    border: 3px solid #2b69c5;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #2b69c5;
+}
+
+.hostContainer small {
+    font-size: .78em;
+    font-weight: 500;
+    margin-bottom: 6px;
+    display: block;
+    color: gray;
+    /* margin-top: 10px; */
+}
+
+.hostContainer .Name {
+    font-size: .88em;
+    font-weight: 500;
+    color: #000000b0;
+}
+
+.smallImageContainer {
+    display: flex;
+    align-items: center;
+}
+
+.smallImageContainer img {
+    margin-right: 5px;
+}
+
+
+
+
+.seminarDetail .right .box {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.seminarDetail .right .headingP {
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+
+.seminarDetail .time_btn>p {
+    font-weight: bold;
+    font-size: 1.67em;
+}
+
+
+
+
+.seminarDetail .time_btn {
+    min-width: 120px;
+    max-width: 120px;
+    min-height: 120px;
+    max-height: 120px;
+    padding: 20px 12px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 9px;
+    border: none;
+
+    background: white;
+    box-shadow: 0px 0px 5px 0px #8080803b;
+}
+
+.seminarDetail .firt_time_btn {
+    background: #e10013;
+    color: white;
+}
+
+/* ................................................................................................................................... */
+
+.sehedulePoster {
+    background-image: linear-gradient(45deg, #1d69dd, #032458);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 40px;
+    margin: 25px;
+    border-radius: 10px;
+}
+
+.sehedulePoster>button {
+    color: #1459c1;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1.3em;
+    font-size: 600;
+    font-weight: 600;
+    border: none;
+}
+
+.headingMain_Container {
+    width: 410px;
+    margin-right: 20px;
+
+    /* display: flex;
+
+    justify-content: space-between; */
+
+}
+
+.headingMain_Container .heading {
+    font-size: 2em;
+    font-weight: 500;
+
+}
+
+.sehedulePoster .paragraph {
+    font-size: 1.1em;
+    margin-top: 12px;
+}

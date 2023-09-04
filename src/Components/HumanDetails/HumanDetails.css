@@ -1,0 +1,87 @@
+.HumanDetails {
+    display: flex;
+    background: #00000003;
+    margin: 25px;
+}
+
+.HumanDetails .left {
+    width: 70%;
+    margin-left: 30px;
+
+
+}
+
+.HumanDetails .left .paragraph {
+    margin-bottom: 50px;
+    font-size: 1.2em;
+    margin-top: 45px;
+}
+
+
+.HumanDetails .left .heading {
+    font-size: 2.6em;
+    font-weight: 400;
+}
+
+.HumanDetails .left .heading>span {
+    color: red;
+
+}
+
+.HumanDetails .right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.HumanDetails .right .box {
+
+    width: 270px;
+    margin: 15px;
+    background: white;
+    padding: 13px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0px 0px 1px 0px black;
+}
+
+.HumanDetails .right .box img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.HumanDetails .right .box .Name {
+    font-size: 1em;
+    font-weight: 500;
+    color: #014ab9;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.HumanDetails .right .box>p {
+    margin-top: 14px;
+    font-size: .93em;
+}
+
+.surname {
+    font-weight: 500;
+    font-size: .80em;
+    color: #808080e0;
+}
+
+.checkbox {
+    margin-bottom: 20px;
+}
+
+.check {
+    color: white;
+    background: red;
+    border-radius: 100%;
+    padding: 1px 1px 1px 4px;
+    font-size: .91em;
+    margin-right: 10px;
+}
+
+.check_Summery {
+    font-size: 1em;
+}

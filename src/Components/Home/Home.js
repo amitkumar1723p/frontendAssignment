@@ -1,6 +1,7 @@
 import React from 'react'
 import HomeMenImage from '../../Images/menhome.png'
 import './Home.css'
+import Logo from '../../Images/Logo.png'
 export default function Home() {
     return (
 
@@ -10,8 +11,9 @@ export default function Home() {
             <ul>
 
                 <div className='logo_line'>
-                    <li> Top One PERCENT</li>
-                    <li>99<sup><small>th</small></sup> PERCENTILE CLUB</li>
+                    <img src={Logo} alt="logo" />
+                    {/* <li> Top One PERCENT</li>
+                    <li>99<sup><small>th</small></sup> PERCENTILE CLUB</li> */}
                 </div>
 
 
@@ -38,7 +40,6 @@ export default function Home() {
                     <small>Trusted by 500,000+ students in 150+ countries</small>
                 </div>
                 <div className='home_left'>
-
                     <img src={HomeMenImage} alt="men image " />
 
                 </div>

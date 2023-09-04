@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.079115dc.css",
-    "main.js": "/static/js/main.dfa1fca9.js",
+    "main.css": "/static/css/main.17aae532.css",
+    "main.js": "/static/js/main.8e936d12.js",
+    "static/media/poster.png": "/static/media/poster.ec608075ff99cc82149f.png",
     "static/media/sandeep.png": "/static/media/sandeep.9c01b0b41b0307552bde.png",
     "static/media/menhome.png": "/static/media/menhome.63e05508edff1196dfd6.png",
+    "static/media/smallPoster.png": "/static/media/smallPoster.34ea3f0fd3cba63fa831.png",
     "static/media/2.jpg": "/static/media/2.dcca458243925dbb72d8.jpg",
     "static/media/3.jpg": "/static/media/3.12cf264ae2358c5681f0.jpg",
     "static/media/4.jpg": "/static/media/4.e0ca1ef2fa42995a90da.jpg",
     "static/media/6.jpg": "/static/media/6.f4f193abb7f519d3bfc6.jpg",
     "static/media/5.jpg": "/static/media/5.85fab45e40264e7f0f53.jpg",
     "static/media/1.jpg": "/static/media/1.8964a0532c7a7bb68e4f.jpg",
+    "static/media/Image_Vineetha.png": "/static/media/Image_Vineetha.5162501f707ce5ed91b5.png",
+    "static/media/Varija.png": "/static/media/Varija.c85d90a78acbebf96d5b.png",
+    "static/media/Image_Shloka.png": "/static/media/Image_Shloka.79c7900070fe2f1ca300.png",
     "index.html": "/index.html",
-    "main.079115dc.css.map": "/static/css/main.079115dc.css.map",
-    "main.dfa1fca9.js.map": "/static/js/main.dfa1fca9.js.map"
+    "main.17aae532.css.map": "/static/css/main.17aae532.css.map",
+    "main.8e936d12.js.map": "/static/js/main.8e936d12.js.map"
   },
   "entrypoints": [
-    "static/css/main.079115dc.css",
-    "static/js/main.dfa1fca9.js"
+    "static/css/main.17aae532.css",
+    "static/js/main.8e936d12.js"
   ]
 }
