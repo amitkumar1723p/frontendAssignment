@@ -57,13 +57,19 @@ export default function Home() {
 
             <div className='home_second'>
                 <div className='home_right'>
-                    <p className='heading_p'> Beacome the top 1% scorer in <span>GMAT</span></p>
-                    <button> Request a live Demo</button>
-                    <small>Trusted by 500,000+ students in 150+ countries</small>
+                    <p className='heading_p'> Beacome the top 1% scorer in <span><span className='Text_G'>G</span>MAT</span></p>
+                    <button className='none_btn'> Request a live Demo</button>
+                    <p className='none_btn small'>Trusted by 500,000+ students in 150+ countries</p>
                 </div>
+
                 <div className='home_left'>
                     <img src={HomeMenImage} alt="men image " />
+                    <div>
 
+
+                        <button className='visible_btn'> Request a live Demo</button>
+                        <p className='visible_btn small'> TTrusted by 500,000+ students in 150+ countries</p>
+                    </div>
                 </div>
             </div>
 

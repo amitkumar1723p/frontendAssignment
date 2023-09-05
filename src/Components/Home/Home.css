@@ -1,732 +1,917 @@
- .homecontainer {
-     padding: 20px 30px 0px 30px;
-     background-image: linear-gradient(306deg, #ffc0cb33, rgb(0 0 0 / 10%), #ffc0cb42);
-
- }
-
- .visible_btn {
-     display: none;
-
- }
-
- .homecontainer ul,
- .li_Container {
-     display: flex;
- }
-
- .homecontainer ul {
-     justify-content: space-between;
- }
-
- .homecontainer ul button {
-     color: white;
-     background: black;
-     padding: 9px 12px;
-     height: 39px;
-     font-weight: bold;
-     font-size: .9em;
- }
-
- .homecontainer ul li {
-     list-style-type: none;
-     margin-right: 25px;
-     font-size: 1.1em;
- }
-
- .homecontainer ul li:last-child {
-     margin-right: 0%;
- }
-
- .home_second {
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-
- }
-
- .home_left {
-     position: relative;
- }
-
- .home_left>img {
-     height: 60vh;
- }
-
- /* .home_left .Image_intro {
-     background-color: white;
-     position: absolute;
-     bottom: 10%;
-     right: 0%;
-     display: flex;
-     width: 100%;
-     justify-content: center;
-     align-items: center;
-     padding: 10px;
-
- } */
-
- .home_right {
-     margin-right: 50px;
- }
-
- .home_right .heading_p {
-     font-size: 2.2em;
- }
-
- .home_right .heading_p>span {
-     font-weight: bold;
-     color: blue;
-
-
- }
-
- .home_right>button {
-     text-align: center;
-     margin: 10px auto 4px auto;
-     display: block;
-
-     padding: 7px 39px;
-     background: black;
-     color: white;
-     font-size: 1em;
-     font-weight: bold;
- }
-
- .home_right>small {
-     font-size: .89em;
- }
-
- .university {
-     background-color: blue;
-     color: white;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-     text-align: center;
-     padding: 9px;
- }
-
- .university p {
-     font-size: 2.2em;
-     font-weight: bold;
- }
-
- .university small {
-     font-size: 12px;
- }
-
- .intro {
-     margin-right: 10px;
- }
-
- /* .intro .summery {
-     margin-top: 10px;
-     margin-bottom: 10px;
-     font-size: 13px;
- } */
-
- /* .intro .bold {
-     font-size: 1.4em;
-     font-weight: bold;
- } */
-
- .gmta {
-     color: blue;
- }
-
- .logo_line>li:first-child {
-     color: red;
-     margin: 0;
-     font-weight: bold;
-     font-size: 1.5em;
- }
+.Text_G {
+    background: linear-gradient(55deg, #CD168A -24%, #1414ff);
+    background-clip: content-box;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
 
- .logo_line>li:nth-child(2) {
+.homecontainer {
+    padding: 20px 30px 0px 30px;
+    background-image: linear-gradient(306deg, #ffc0cb33, rgb(0 0 0 / 10%), #ffc0cb42);
 
-     margin-top: 4px;
-     font-size: bold;
-     padding: 3px 0px 5px 0px;
-     color: white;
-     background-color: blue;
-     border-radius: 14px;
-     text-align: center;
-     font-size: .9em;
- }
+}
 
+.visible_btn {
+    display: none;
 
+}
 
- @media screen and (min-width: 0px) and (max-width:930px) {
+.homecontainer ul,
+.li_Container {
+    display: flex;
+}
 
+.homecontainer ul {
+    justify-content: space-between;
+}
 
-     .homecontainer ul {
-         display: block;
-     }
+.homecontainer ul button {
+    color: white;
+    background: black;
+    padding: 9px 12px;
+    height: 39px;
+    font-weight: bold;
+    font-size: .9em;
+}
 
-     .logo_line>li:nth-child(2) {
-         display: inline-block;
-         padding: 3px 20px 5px 20px;
-     }
+.homecontainer ul li {
+    list-style-type: none;
+    margin-right: 25px;
+    font-size: 1em;
+}
 
-     .homecontainer ul,
-     .li_Container {
-         margin-top: 10px;
-         margin-bottom: 10px;
-     }
+.homecontainer ul li:last-child {
+    margin-right: 0%;
+}
 
-     .uppersection .box {
-         padding: 20px 0px !important;
-         border-right: none !important;
-     }
+.home_second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-     .home_secon {
-         flex-direction: column;
-         justify-content: center;
-     }
-
-     .home_right {
-         margin: 20px auto;
-     }
-
-     .home_second {
-         flex-direction: column;
-         align-items: center;
-         justify-self: center;
-     }
-
-
-     .secondchild .left {
-         width: 40% !important;
-         margin-right: 25px !important;
-     }
-
-
-     .fourth_child .left,
-     .fourth_child .right {
-         width: 40% !important;
-     }
-
-
-     .thirdSession {
-         width: 90% !important;
-
-     }
-
-
-     .plus {
-         margin-left: 20px;
-     }
-
-     .poster .contentContainer {
-         width: 69% !important;
-         padding: 10px 14px !important;
-         left: 5% !important;
-         width: 99%;
-     }
-
-     .contentContainer .content button {
-         margin-bottom: 1px !important;
-     }
-
-     .contentContainer .content h3 {
-         margin-bottom: 7px !important;
-         font-size: 1.61em !important;
-     }
-
-     .contentContainer .content p {
-         font-size: .90em !important;
-
-     }
-
-     .seminarDetail {
-         flex-direction: column !important;
+}
 
+.home_left {
+    position: relative;
+}
 
-     }
+.home_left>img {
+    height: 60vh;
+}
 
-     .seminarDetail .left,
-     .seminarDetail .right {
-         max-width: none !important;
-         width: 100%;
-         box-sizing: border-box;
-     }
 
-     .seminarDetail .left {
-         margin-bottom: 50px;
-         margin-right: 0px !important;
 
-     }
+.home_right {
+    margin-right: 50px;
+}
 
-     .seminarDetail .right .box {
-         justify-content: space-between;
-         margin-bottom: 60px !important;
-     }
+.home_right .heading_p {
+    font-size: 3em;
+}
 
-     .seminarDetail_Container h2 {
-         font-size: 2em;
-     }
+.home_right .heading_p>span {
+    font-weight: bold;
+    color: blue;
 
-     .seminarDetail .time_btn {
-         min-width: 110px !important;
-         max-width: 110px !important;
-         min-height: 110px !important;
-         max-height: 110px !important;
-     }
 
-     .seminarDetail .right .headingP {
-         font-size: 1.4em !important;
-     }
+}
 
-     .sehedulePoster {
-         padding: 25px !important;
-         margin: 25px 12px !important;
-     }
 
-     .sehedulePoster>button {
-         padding: 8px !important;
-         font-size: 1.2em !important;
-     }
+.home_right>button,
+.home_left>div>button {
+    text-align: center;
+    margin: 40px 0px 7px 0px;
+    padding: 7px 39px;
+    background: black;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
 
-     .HumanDetails {
-         flex-direction: column;
-     }
 
-     .HumanDetails .left {
-         width: auto !important;
-         margin: auto auto 20px auto !important;
-     }
 
-     .footer_Container .table {
-         margin-right: 20px !important;
-     }
 
-     .footer_Container .table p {
-         text-align: center;
-         font-size: 1em !important;
-     }
 
-     .footer_Container .table:last-child {
-         margin-right: 0px !important;
 
-     }
 
-     .footer_Container_Main {
-         padding: 20px !important;
-         margin: 30px 20px 0px 20px !important;
-     }
+.home_right>.small,
+.home_left>div>.small {
+    font-size: .89em;
 
-     .footer_Container .left {
-         margin-right: 20px;
-     }
+}
+
+.university {
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 9px;
+}
 
-     .footer_Container .table .heading {
-         font-size: 1.1em !important;
-     }
+.university p {
+    font-size: 2.2em;
+    font-weight: bold;
+}
 
+.university small {
+    font-size: 12px;
+}
 
-     .footer_Container .email,
-     .footer_Container .contact {
-         font-size: 1.2em !important;
-     }
+.intro {
+    margin-right: 10px;
+}
 
-     .icon_Container p {
-         font-size: .8em !important;
-     }
 
-     .icon_Container .icon img {
-         margin-right: 10px !important;
-         width: 15px !important;
-     }
+.gmta {
+    color: blue;
+}
 
+.logo_line>li:first-child {
+    color: red;
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.5em;
+}
 
- }
+.logo_line>li:nth-child(2) {
 
+    margin-top: 4px;
+    font-size: bold;
+    padding: 3px 0px 5px 0px;
+    color: white;
+    background-color: blue;
+    border-radius: 14px;
+    text-align: center;
+    font-size: .9em;
+}
 
+/* ------------------------------------------------------------- */
 
 
+@media screen and (min-width: 0px) and (max-width:930px) {
 
 
+    .homecontainer ul {
+        display: block;
+    }
 
+    .logo_line>li:nth-child(2) {
+        display: inline-block;
+        padding: 3px 20px 5px 20px;
+    }
 
- @media screen and (min-width: 0px) and (max-width:600px) {
+    .homecontainer ul,
+    .li_Container {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 
-     .visible_btn {
-         display: inline;
 
-     }
+    .uppersection .box {
+        padding: 20px 15px !important;
+    }
 
-     .none_btn {
-         display: none;
-     }
+    .home_secon {
+        flex-direction: column;
+        justify-content: center;
+    }
 
-     .homecontainer {
-         padding: 20px 12px 0px 12px;
-     }
+    .home_right {
+        margin: 20px auto;
+    }
 
+    .home_second {
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+    }
 
 
-     .homecontainer ul {
-         position: relative;
-         /* overflow: hidden; */
-     }
+    .secondchild .left {
+        width: 40% !important;
+        margin-right: 25px !important;
+    }
 
 
+    .fourth_child .left,
+    .fourth_child .right {
+        width: 40% !important;
+    }
 
-     .li_Container {
-         margin: 0 !important;
-         color: white;
-         box-sizing: border-box;
-         flex-wrap: wrap;
-         width: 50%;
-         padding: 12px;
-         z-index: 1;
-         text-align: center;
-         background: #565152;
-         flex-direction: column;
-         align-items: center;
-         /* top: -375px; */
-         position: absolute;
-         left: 30%;
-         transition: all 1s ease-in-out;
-     }
 
-     .li_Container>li {
-         margin: 10px;
-     }
+    .thirdSession {
+        width: 90% !important;
 
+    }
 
 
-     .uppersection {
-         flex-direction: column;
+    .plus {
+        margin-left: 20px;
+    }
 
-     }
+    .poster .contentContainer {
+        width: 69% !important;
+        padding: 10px 14px !important;
+        left: 5% !important;
+        width: 99%;
+    }
 
-     .uppersection .box {
-         padding: 13px 10px
-     }
+    .contentContainer .content button {
+        margin-bottom: 1px !important;
+    }
 
-     .secondchild .left {
-         width: 90% !important;
-         margin: auto auto 30px auto !important;
+    .contentContainer .content h3 {
+        margin-bottom: 7px !important;
+        font-size: 1.61em !important;
+    }
 
+    .contentContainer .content p {
+        font-size: .90em !important;
 
-     }
+    }
 
-     .secondchild {
-         flex-direction: column;
-     }
+    .seminarDetail {
+        flex-direction: column !important;
 
-     .thirdchild {
-         padding: 13px 20px;
-         margin: 25px 15px 20px 15px;
-     }
 
-     .fourth_child {
-         flex-direction: column;
-         justify-self: center;
-         align-items: center;
+    }
 
-     }
+    .seminarDetail .right {
+        overflow: auto;
 
-     .fourth_child .left,
-     .fourth_child .right {
-         width: 80% !important;
-         margin: auto !important;
-     }
+    }
 
-     .fourth_child .left {
-         margin-bottom: 20px !important;
-     }
+    .seminarDetail .right .box:nth-child(2) {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 
-     .fivth_child {
-         flex-direction: column;
-         justify-content: center;
-         align-items: center;
-         margin-left: auto !important;
-         margin-right: auto !important;
-     }
+    .seminarDetail .left,
+    .seminarDetail .right {
+        max-width: none !important;
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
 
-     .fivth_child .left {
-         padding: 20px 0px 0px 0px !important;
-     }
+    }
 
-     .home_left>img {
-         height: auto !important;
-         width: 70vw !important;
-     }
+    .seminarDetail .left {
+        margin-bottom: 50px;
+        margin-right: 0px !important;
+        flex-direction: column;
 
+    }
 
-     .Inspiring_StoriesContainer {
-         margin: 0 15px !important;
-     }
+    .seminarDetail .right .box {
 
-     .home_right .heading_p {
-         margin: auto 10px !important;
-     }
 
-     .secondMain {
-         padding: 10px !important;
-     }
+        padding: 12px;
+        justify-content: space-between;
+        margin-bottom: 0px !important;
+        min-width: 471px !important;
+        box-sizing: border-box;
+        background: #e5e5e554;
+    }
 
-     .footer_Container {
-         align-items: center;
-         flex-direction: column;
-     }
+    .seminarDetail_Container h2 {
+        font-size: 2em;
+    }
 
-     .footer_Container .left {
-         margin-right: 0;
-         margin-bottom: 40px;
-     }
+    .seminarDetail .time_btn {
+        min-width: 110px !important;
+        max-width: 110px !important;
+        min-height: 110px !important;
+        max-height: 110px !important;
+    }
 
-     .icon_Container {
+    .seminarDetail .right .headingP {
+        font-size: 1.4em !important;
+    }
 
-         flex-direction: column;
-         align-items: center;
-     }
+    .sehedulePoster {
+        padding: 25px !important;
+        margin: 25px 12px !important;
+    }
 
-     .icon_Container .icon {
-         margin-top: 14px;
-     }
+    .sehedulePoster>button {
+        padding: 8px !important;
+        font-size: 1.2em !important;
+    }
 
-     .footer_Container_Main {
-         padding: 20px 15px !important;
-         margin-right: 15px !important;
-         margin-left: 15px !important;
-     }
+    .HumanDetails {
+        flex-direction: column;
+    }
 
-     .poster img {
-         height: 70vh;
-     }
+    .HumanDetails .left {
+        width: auto !important;
+        margin: auto auto 20px auto !important;
+    }
 
-     .poster .contentContainer {
-         width: 80% !important;
-         padding: 10px !important;
-     }
+    .footer_Container .table {
+        margin-right: 20px !important;
+    }
 
-     .posterContainer {
-         margin: 25px 15px !important;
-     }
+    .footer_Container .table p {
+        text-align: center;
+        font-size: 1em !important;
+    }
 
+    .footer_Container .table:last-child {
+        margin-right: 0px !important;
 
+    }
 
-     .hostContainer>button {
-         font-size: .85em !important;
-         padding: 5px !important;
-     }
+    .footer_Container_Main {
+        padding: 20px !important;
+        margin: 30px 20px 0px 20px !important;
+    }
 
-     .seminarDetail .left>p {
-         font-size: 1.15em !important;
-     }
+    .footer_Container .left {
+        margin-right: 20px;
+    }
 
-     .seminarDetail_Container h2 {
-         font-size: 1.8em !important;
-     }
+    .footer_Container .table .heading {
+        font-size: 1.1em !important;
+    }
 
-     .seminarDetail .right .box {
-         flex-direction: column-reverse;
-     }
 
-     .seminarDetail .time_btn {
-         margin: 25px auto auto auto !important;
-         min-width: 181px !important;
-         max-width: 180px !important;
-         min-height: 80px !important;
-         max-height: 80px !important;
+    .footer_Container .email,
+    .footer_Container .contact {
+        font-size: 1.2em !important;
+    }
 
-     }
+    .icon_Container p {
+        font-size: .8em !important;
+    }
 
-     .sehedulePoster {
-         flex-direction: column;
-     }
+    .icon_Container .icon img {
+        margin-right: 10px !important;
+        width: 15px !important;
+    }
 
-     .headingMain_Container {
-         margin-right: 0 !important;
-         width: auto !important;
-         margin-bottom: 20px;
-     }
+    .HumanDetails {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 
-     .headingMain_Container .heading {
-         font-size: 1.7em !important;
-         font-weight: 600 !important;
-     }
+    .HumanDetails .right {
+        flex-wrap: nowrap !important;
+        overflow: auto;
+        box-sizing: border-box;
+        padding: 10px;
+        justify-content: unset !important;
+    }
 
-     .seminarDetail .right .headingP {
-         font-size: 1.2em !important;
-     }
+    .HumanDetails .right .box {
+        margin: 0 !important;
+        min-width: 270px !important;
 
-     .sehedulePoster {
-         padding: 20px !important;
-     }
+    }
 
-     .HumanDetails .left .heading {
-         font-size: 2.2em !important;
-     }
+    .HumanDetails .right .box:nth-child(2) {
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
 
-     .Hamburger {
-         width: 30px;
-         top: 0;
-         width: 30px;
-         right: 5px;
-         position: absolute;
-         cursor: pointer;
 
-     }
+}
 
-     .Hamburger p:nth-child(2) {
-         margin: 7px 0px;
 
-     }
 
-     .Hamburger p {
-         padding: 2px;
 
-         transition: all .3s ease-in-out;
-     }
+/* ---------------------------------------------------------- */
 
- }
 
 
 
 
- @media screen and (min-width: 0px) and (max-width:340px) {
 
-     .Hamburger {
-         width: 22px;
-     }
+/* =================================================================== */
 
-     .logo_line img {
-         width: 90px;
-     }
+@media screen and (min-width: 0px) and (max-width:600px) {
 
-     .li_Container {
-         width: 70% !important;
-         left: 0% !important;
-     }
+    .visible_btn {
+        display: block;
+    }
 
-     .home_left>img {
-         width: 100% !important;
-         height: auto !important;
-     }
+    .home_right .heading_p {
+        font-size: 2em !important;
+    }
 
+    .none_btn {
+        display: none;
+    }
 
-     .homecontainer {
-         padding-bottom: 20px !important;
-         font-size: 14px;
+    .homecontainer {
+        padding: 20px 12px 0px 12px;
+    }
 
 
-     }
 
-     .secondMain {
-         font-size: 14px;
-     }
+    .homecontainer ul {
+        position: relative;
+        /* overflow: hidden; */
+    }
 
-     .Inspiring_StoriesContainer {
-         font-size: 14px;
-     }
 
-     .thirdSession {
-         font-size: 13px;
-     }
 
-     .secondchild .right {
-         padding: 12px 0px !important;
-         margin: 0px 10px;
-     }
+    .li_Container {
+        margin: 0 !important;
+        color: white;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        width: 50%;
+        padding: 12px;
+        z-index: 1;
+        text-align: center;
+        background: #565152;
+        flex-direction: column;
+        align-items: center;
+        /* top: -375px; */
+        position: absolute;
+        left: 30%;
+        transition: all 1s ease-in-out;
+    }
 
-     .secondchild .right img {
-         width: 100%;
-         height: auto !important;
-     }
+    .li_Container>li {
+        margin: 10px;
+    }
 
-     .imageContainer {
-         flex-direction: column;
-         overflow: visible !important;
-     }
 
-     .thirdchild {
-         padding: 20px 11px !important;
-         margin: 25px 0px 20px 0px !important;
-     }
 
-     .imageContainer .image_box {
+    .uppersection {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1px;
+        padding: 8px 4px;
 
-         margin: 0 0 15px 0 !important;
-     }
+    }
 
-     .imageContainer .image_box img {
-         width: 100% !important;
-     }
 
 
-     .poster .contentContainer {
-         width: 100% !important;
-         padding: 7px !important;
-         left: 0% !important;
-     }
+    .uppersection .box:nth-child(2) {
+        border-right: none;
+    }
 
-     .contentContainer .content {
-         font-size: 14.5px;
-     }
+    .uppersection .box:nth-child(4) {
+        border-right: none;
+        order: 4;
+    }
 
-     .hostContainer {
-         flex-direction: column;
-     }
+    .uppersection .box:nth-child(3) {
+        order: 4;
+    }
 
-     .smallImageContainer {
-         margin-bottom: 17px;
-     }
 
-     .seminarDetail .time_btn {
-         min-width: 100% !important;
-         max-width: none !important;
-         min-height: none !important;
-         max-height: none !important;
-     }
+    .uppersection .box:last-child {
+        order: 3;
+        width: 98%;
+        border-top: 1px solid black !important;
 
-     .seminarDetail_Container {
-         font-size: 15px;
-         padding: 5px !important;
-     }
+        border-bottom: 1px solid black !important;
+    }
 
+    .uppersection .box {
+        background: white;
+        box-shadow: 0px 0px 4px #00000008;
+        width: 49%;
+        padding: 16px 0px !important;
 
-     .sehedulePoster {
-         font-size: 14px;
-         padding: 13px !important;
+        box-sizing: border-box;
 
-     }
 
-     .HumanDetails {
-         margin: 25px 12px !important;
-         font-size: 14px;
 
-     }
 
-     .HumanDetails .right .box {
-         margin: 0 !important;
-         padding: 5px !important;
-         width: 100% !important;
-     }
+    }
 
-     .HumanDetails .right .box:nth-child(2) {
-         margin-top: 20px !important;
-         margin-bottom: 20px !important;
-     }
 
 
-     .icon_Container p {
-         font-size: .9em !important;
-     }
 
-     .footer_Container .table {
-         margin-right: 11px !important;
-     }
 
-     .footer_Container_Main {
-         font-size: 11px;
-         padding: 20px 10px !important;
-         margin-right: 4px !important;
-         margin-left: 4px !important;
-     }
+    .uppersection .box {
+        padding: 13px 10px
+    }
 
+    .secondchild .left {
+        width: 90% !important;
+        margin: auto auto 25px auto !important;
 
- }
+
+    }
+
+    .secondchild {
+        flex-direction: column-reverse;
+        margin-top: 40px;
+    }
+
+    .thirdchild {
+        padding: 13px 20px !important;
+        margin: 10px 0px 30px 0px !important;
+    }
+
+    .fourth_child {
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+
+    }
+
+    .fourth_child .left,
+    .fourth_child .right {
+        width: 83% !important;
+        margin: auto !important;
+        box-shadow: 0px 0px 15px 0px #00000030;
+        border: none !important;
+    }
+
+    .circle_btn {
+        padding: 10px !important;
+    }
+
+    .fourth_child .left {
+        margin-bottom: 20px !important;
+    }
+
+    .fivth_child {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .fivth_child .left {
+        padding: 20px 0px 0px 0px !important;
+    }
+
+    .home_left {
+        text-align: center;
+    }
+
+    .home_left>img {
+        height: auto !important;
+        width: 80vw !important;
+    }
+
+
+    .Inspiring_StoriesContainer {
+        margin: 40px 15px !important;
+    }
+
+    .home_right .heading_p {
+        margin: auto 10px !important;
+    }
+
+
+    .secondchild .right {
+        margin-bottom: 40px;
+    }
+
+    .secondMain {
+        margin: 30px 15px !important;
+
+    }
+
+    .footer_Container {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer_Container .left {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    .icon_Container {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icon_Container .icon {
+        margin-top: 14px;
+    }
+
+    .footer_Container_Main {
+        padding: 20px 15px !important;
+        margin-right: 15px !important;
+        margin-left: 15px !important;
+    }
+
+    .poster {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .poster img {
+        height: 70vh;
+    }
+
+    .poster .contentContainer {
+        position: unset !important;
+        padding: 10px !important;
+        width: 100% !important;
+        background-color: red !important;
+    }
+
+    .posterContainer {
+        margin: 25px 15px !important;
+    }
+
+
+
+    .hostContainer>button {
+        font-size: .85em !important;
+        padding: 5px !important;
+    }
+
+    .seminarDetail .left>p {
+        font-size: 1.15em !important;
+    }
+
+    .seminarDetail_Container h2 {
+        font-size: 1.8em !important;
+    }
+
+    .seminarDetail .right .box {
+        flex-direction: column-reverse;
+        min-width: 290px !important;
+        padding: 10px !important;
+    }
+
+    .seminarDetail .time_btn {
+        margin: 25px auto auto auto !important;
+        min-width: 181px !important;
+        max-width: 180px !important;
+        min-height: 80px !important;
+        max-height: 80px !important;
+
+    }
+
+    .sehedulePoster {
+        flex-direction: column;
+    }
+
+    .headingMain_Container {
+        margin-right: 0 !important;
+        width: auto !important;
+        margin-bottom: 20px;
+    }
+
+    .headingMain_Container .heading {
+        font-size: 1.7em !important;
+        font-weight: 600 !important;
+    }
+
+    .seminarDetail .right .headingP {
+        font-size: 1.2em !important;
+    }
+
+    .sehedulePoster {
+        padding: 20px !important;
+    }
+
+    .HumanDetails .left .heading {
+        font-size: 2.2em !important;
+    }
+
+    .Hamburger {
+        width: 30px;
+        top: 0;
+        width: 30px;
+        right: 5px;
+        position: absolute;
+        cursor: pointer;
+
+    }
+
+    .Hamburger p:nth-child(2) {
+        margin: 7px 0px;
+
+    }
+
+    .Hamburger p {
+        padding: 2px;
+        transition: all .3s ease-in-out;
+    }
+
+    .home_left>div {
+        width: 100vw;
+        padding-bottom: 10px;
+        background-color: white;
+        box-shadow: 0px 0px 10px #00000038;
+
+
+
+    }
+
+    .home_left>div>button {
+        width: 90%;
+        margin: 1px auto 3px auto !important;
+    }
+
+}
+
+
+/* ============================================================= */
+
+
+@media screen and (min-width: 0px) and (max-width:340px) {
+
+    .Hamburger {
+        width: 22px;
+    }
+
+    .logo_line img {
+        width: 90px;
+    }
+
+    .li_Container {
+        width: 70% !important;
+        left: 10% !important;
+    }
+
+    .home_left>img {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+
+    .homecontainer {
+        padding-bottom: 20px !important;
+        font-size: 14px;
+    }
+
+    .secondMain {
+        margin: 30px 10px !important;
+    }
+
+    .Inspiring_StoriesContainer {
+        font-size: 14px;
+    }
+
+    .thirdSession {
+        font-size: 13px;
+    }
+
+    .secondchild .right {
+        padding: 12px 0px !important;
+        margin: 0px 0px !important;
+    }
+
+    .secondchild .left button {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: block;
+
+    }
+
+    .secondchild .right img {
+        width: 100%;
+        height: auto !important;
+    }
+
+
+
+    .thirdchild {
+        padding: 20px 11px !important;
+        margin: 25px 0px 20px 0px !important;
+    }
+
+
+
+
+
+    .poster .contentContainer {
+        width: 100% !important;
+        padding: 7px !important;
+        left: 0% !important;
+    }
+
+    .contentContainer .content {
+        font-size: 14.5px;
+    }
+
+    .hostContainer {
+        flex-direction: column;
+    }
+
+    .smallImageContainer {
+        margin-bottom: 17px;
+    }
+
+    .seminarDetail .time_btn {
+        min-width: 100% !important;
+        max-width: none !important;
+        min-height: none !important;
+        max-height: none !important;
+    }
+
+    .seminarDetail_Container {
+        font-size: 15px;
+        padding: 5px !important;
+    }
+
+    .secondchild .left {
+        width: 99% !important;
+    }
+
+    .circle_btn {
+        padding: 8px !important;
+    }
+
+    .fivth_child .right {
+        padding: 15px 10px !important;
+
+    }
+
+    .sehedulePoster {
+        font-size: 14px;
+        padding: 13px !important;
+
+    }
+
+    .HumanDetails {
+        margin: 25px 12px !important;
+        font-size: 14px;
+
+    }
+
+    .HumanDetails .right {
+        padding: 5px;
+    }
+
+    .HumanDetails .right .box {
+        margin: 0 !important;
+        padding: 5px !important;
+        min-width: 170px !important;
+
+    }
+
+    .HumanDetails .right .box:nth-child(2) {
+        margin-right: 10px !important;
+        margin-left: 10px !important;
+
+    }
+
+
+    .icon_Container p {
+        font-size: .9em !important;
+    }
+
+    .footer_Container .table {
+        margin-right: 11px !important;
+    }
+
+    .footer_Container_Main {
+        font-size: 11px;
+        padding: 20px 10px !important;
+        margin-right: 4px !important;
+        margin-left: 4px !important;
+    }
+
+    .home_right>button {
+        padding: 7px 15px !important;
+    }
+
+    .home_left>div>button {
+        width: 95%;
+        margin: 1px auto 3px auto !important;
+    }
+
+    .imageContainer .image_box img {
+        width: 176px !important;
+    }
+
+    .imageContainer .image_box {
+        margin: 0px 7px !important;
+    }
+
+    .poster img {
+        height: 50vh !important;
+    }
+
+    .posterContainer {
+        margin: 25px 10px !important;
+    }
+
+    .Inspiring_StoriesContainer {
+        margin: 30px 10px !important;
+    }
+
+    .seminarDetail .right .box:nth-child(2) {
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+
+    .seminarDetail .right .box {
+        flex-direction: column-reverse;
+        min-width: 177px !important;
+        padding: 5px !important;
+    }
+}

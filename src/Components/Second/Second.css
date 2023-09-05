@@ -1,14 +1,15 @@
 .secondMain {
     background-color: white;
+    margin: 30px 25px;
 }
 
-
+ 
 .secondMain .firstp {
     margin-top: 15px;
     font-weight: 500;
     text-align: center;
     font-size: 1.3em;
-    margin-bottom: 15px;
+    margin-bottom: 37px;
 
 
 }
@@ -16,6 +17,7 @@
 .uppersection {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .uppersection .box {
@@ -42,7 +44,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 50px;
 }
 
 .secondchild .left {
@@ -99,7 +101,7 @@
     background: #001637;
     color: white;
     padding: 20px 35px;
-    margin: 25px 30px 20px 30px;
+    margin: 40px 0px 40px 0px;
 }
 
 .fourth_child {
@@ -117,6 +119,10 @@
     padding: 15px;
     border-radius: 5px;
 
+}
+
+.fourth_child .right {
+    margin-right: 0px;
 }
 
 .fourth_child .left h2,
@@ -159,9 +165,8 @@
     justify-content: center;
     color: white;
     background: #1a1e1d;
-    margin-top: 20px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-top: 50px;
+
 }
 
 .fivth_child .left {

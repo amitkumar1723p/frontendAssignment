@@ -1,15 +1,21 @@
 .Inspiring_StoriesContainer {
-    margin: 25px 25px;
+    margin: 50px 25px;
+
+}
+
+.seminarDetail_Container {
+    margin-top: 42px;
+    margin-bottom: 42px;
 }
 
 .InspiringHeading {
     font-size: 1.3em;
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .InspiringPara {
     font-size: 1em;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 
